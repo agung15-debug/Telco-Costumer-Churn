@@ -113,8 +113,64 @@ Based on gender, telco customer distribution seems equal between males and femal
 The churn rate is almost at an equal level, in other words, we can say that churn rates are not depending on the gender of the customer
 from 7043 customers there are 5147 customers who remain subscribed, or about 73.46% of telco data. and based on the results of EDA gender does not have much effect on customer churn, because the percentage results show the same thing, which is in the range of 31% of the total
 
-## CUSTOMER CHURN BASED ON CONTRACT
+### Customer Churn Based on Contract
 ![image](https://user-images.githubusercontent.com/55911060/200087774-46d16aa9-2656-47d3-828e-ecbd4d71ad31.png)
 * Only less than 4% of customers churn when they subscribe for 1 year and 2 years, and this explains that there is no fatal cause that makes customers churn.
 * There is an increase in the percentage of about 4.82% between 1-year to 2-year subscriptions for customers who do not churn. that means some loyal customers are still satisfied with the services provided by the company.
 * The high number of Month to Month customers who decide to churn is around 23.50%, which means that there are still many early customers who are not interested in the services provided by the company.
+
+### Customer Churn Based on Partner
+![image](https://user-images.githubusercontent.com/55911060/200088851-49b5615d-2b95-483a-b7e2-16c1376ee8d0.png)
+* Although the percentage of customers who do not churn and do not have partners is still high, namely 29.52%, partners are important things that can affect customer churn or not. It can be seen that there is a significant difference between churn customers who have partners and customers who do not churn without partners, namely 25.14% . </br> From this we know, that most customers who enjoy the service are customers who do not have a partner. This is in line with the number of customers who churn, where more are customers who do not have partners. Companies can increase promotions on days associated with couples such as Valentine, to increase customers who want to use the company's services.
+
+### Customer Churn Based on Phone Service
+![image](https://user-images.githubusercontent.com/55911060/200088916-bf864c7c-80d4-44a2-a795-5f056e767e99.png)
+The churn rate for phone service is low, while customers who have a lot of churn are customers who use phone service, this is in line with the number of phone service subscribers who are more (6361) than those who do not subscribe (682)
+![image](https://user-images.githubusercontent.com/55911060/200088930-d99a1be3-db20-4178-adb9-cbdb18b8b98d.png)
+
+### Customer Churn Based on Internet Service
+![image](https://user-images.githubusercontent.com/55911060/200088958-930a4acd-3dc2-4977-9b11-f5d6e85d92ca.png)
+Not only being the highest at 24.01%, but DSL also has a much lower percentage in influencing customer churn than Fiber Optic, which is a difference of 10%. This shows that DSL Internet Service is still superior for customer use. </br> From this we know that most customers who enjoy the service use Fiber Optic internet services, and the second is DSL. However, the number of customers who churn more is using Fiber Optic internet services. Companies can improve or maintain Fiber Optic-based services, so that customers can continue to survive or add new customers
+
+### Customer Churn Based on Online Security
+![image](https://user-images.githubusercontent.com/55911060/200089019-f1b31c93-8656-4f25-8f73-b0c898f6bac8.png)
+From the data above, it is known that most customers do not subscribe to Online Security, followed by 1720 customers who subscribe to Online Security, 1321 customers who do not have internet service, and 1009 unknown customers. The churn rate in Online Security is dominated by customers who do not churn, while customers who churn are dominated by customers who do not use Online Security services.
+
+### Customer Churn Based on Online Backup
+![image](https://user-images.githubusercontent.com/55911060/200089067-d6095455-3718-49f5-af95-f48b5ca4db93.png)
+From the data above, it is known that most customers do not subscribe to Device Protection, followed by 2070 customers who do not subscribe to Device Protection, 1321 customers who do not have internet service, and 1009 unknown customers. The churn rate in Device Protection is dominated by customers who do not have internet service. do not churn, while customers who churn are dominated by customers who do not use Device Protection services.
+
+### Customer Churn Based on Tech Support
+![image](https://user-images.githubusercontent.com/55911060/200089127-6c4b218a-0a14-4307-8df8-da2dda1482b4.png)
+From the data above, it is known that most customers do not subscribe to Tech Support, followed by 1740 customers who subscribe to Tech Support, 1321 customers who do not have internet service, and 1009 unknown customers. The churn rate in Tech Support is dominated by customers who do not churn, while customers who churn are dominated by customers who do not use Tech Support services.
+
+### Customer Churn Based on Streaming TV
+![image](https://user-images.githubusercontent.com/55911060/200089219-94c69a26-7604-4a5e-972a-e0589980febe.png)
+From the data above, it is known that most customers do not subscribe to Streaming TV, followed by customers who subscribe to 2310 customers, 1321 customers who do not have internet service, and 1009 unknown customers. The churn rate on Streaming TV is dominated by customers who do not churn, while subscribers who churn are not much different between those who subscribe and do not subscribe to Streaming TV
+
+### Customer Churn Based on Streaming Movies
+![image](https://user-images.githubusercontent.com/55911060/200089247-82477f63-62a5-46b9-8a5a-d018b8a4c4e4.png)
+From the data above, it is known that most customers do not subscribe to Streaming Movies, followed by 2319 subscribers, 1321 customers who do not have internet service, and 1009 unknown customers. The churn rate for Streaming Movies is dominated by customers who do not churn, while subscribers who churn are not much different from those who subscribe and do not subscribe to Streaming Movies. </br> From all the data services above, it shows that the services provided are still not superior that can be utilized by the company because there are still many customers who continue to subscribe even though they do not use the services provided by the company.
+
+### Customer Churn Based on Payment Method
+![image](https://user-images.githubusercontent.com/55911060/200089308-008a7636-c980-47b3-9080-af68405843cb.png)
+From the data above, it is known that most customers use Electronic Check for the Payment Method, the churn rate in the Payment Method is dominated by customers who do not churn, while customers who churn are dominated by customers who use Electronic check for the payment method.
+
+## Modeling : Logistic Regression
+* Logistic Regression algorithm is an supervised machine learning algorithm for predicting the categorical dependant variable using a given set of independent variables  
+
+* Logistic gives best result under the following conditions :
+  * The dependant variable in binary logistic regression must be binary
+  * Only the variables that are relevant should be included
+  * The independent variable must be unrelated to one another(Have minimal or no multicollinearity in the model)
+  * The log chance are proportional to the independent variables
+  * Required large sampe size
+ 
+ ## Evaluation
+![image](https://user-images.githubusercontent.com/55911060/200089584-9fbcf65a-bbc8-4526-838c-3e5bc7000773.png)
+In the logistic regression model, for the evaluation model, we use the Confusion Matrix. The Confusion Matrix contains precision, recall, f1-score, accuracy, and support. </br> From the modeling, we get 75% churn accuracy, 51% Precision churn, 84% Recall churn, and 64% F1 Score churn. In this case modeling, it is better to see someone who does not churn into churn so it is better to use recall as an indication of model performanc
+
+## Recommendation
+* Recommendation for "Churn" Customer : </br> Focus on promotion, campaign, or give advantage for return old customers such     as discount reactivation or free services. Make a point reactivation strategy, give the big advantage to old customers who already churns 
+
+* Recommendation for "Not Churn" Customer: </br> Focus on a strategy to raise income such as down-selling such as bundles for a few products
