@@ -90,3 +90,7 @@ Demographic info
 
 labels for classification
 * Churn :customer churned or not (Yes or No)
+
+## Data Preparation
+* Python version : 3.9.12
+* Packages Version : Pandas, numpy, matplotlib, seaborn, and sklearn
