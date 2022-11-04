@@ -94,3 +94,27 @@ labels for classification
 ## Data Preparation
 * Python version : 3.9.12
 * Packages Version : Pandas, numpy, matplotlib, seaborn, and sklearn
+
+## Data Cleansing
+1. There are 13 columns containing missing values, with 12 of them being categorical data so that it is imputed with "unknown" and the remaining 1 column is numeric data with positive-skew distribution so that it is imputed using the median.
+2. There is 1 column that has an inappropriate data type so it is necessary to adjust the data type.
+3. There are 16 categorical columns that need to be encoded, with 15 of them being nominal data so that they are encoded using One Hot Encoding and the remaining 1 column is ordinal data so that they are encoded using a map.
+4. The numeric columns in the dataset have different scales so it is necessary to scale the data using the StandardScaler.
+5. The identifier column (customerID) and the multicollinear column (TotalCharges) are removed.
+
+## EDA
+### Churn Rate
+![image](https://user-images.githubusercontent.com/55911060/200087624-eb562607-a5e1-495b-bd05-91bb221e1786.png)
+The graph above shows that most of the customers don't churn, the loyal customer is more than churn customer
+
+### Customer churn Based On Gender
+![image](https://user-images.githubusercontent.com/55911060/200087699-985935e1-1ef0-41f8-af9f-c9ceb49bc90c.png)
+Based on gender, telco customer distribution seems equal between males and female
+The churn rate is almost at an equal level, in other words, we can say that churn rates are not depending on the gender of the customer
+from 7043 customers there are 5147 customers who remain subscribed, or about 73.46% of telco data. and based on the results of EDA gender does not have much effect on customer churn, because the percentage results show the same thing, which is in the range of 31% of the total
+
+## CUSTOMER CHURN BASED ON CONTRACT
+![image](https://user-images.githubusercontent.com/55911060/200087774-46d16aa9-2656-47d3-828e-ecbd4d71ad31.png)
+* Only less than 4% of customers churn when they subscribe for 1 year and 2 years, and this explains that there is no fatal cause that makes customers churn.
+* There is an increase in the percentage of about 4.82% between 1-year to 2-year subscriptions for customers who do not churn. that means some loyal customers are still satisfied with the services provided by the company.
+* The high number of Month to Month customers who decide to churn is around 23.50%, which means that there are still many early customers who are not interested in the services provided by the company.
