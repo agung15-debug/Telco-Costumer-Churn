@@ -185,10 +185,26 @@ From the data above, it is known that most customers use Electronic Check for th
   * Required large sampe size
  
  ## Evaluation
-![image](https://user-images.githubusercontent.com/55911060/200089584-9fbcf65a-bbc8-4526-838c-3e5bc7000773.png)
+![pres al](https://user-images.githubusercontent.com/99872829/200104563-d61ad470-2ac8-4389-9212-ad27dbc3c47d.JPG)
 In the logistic regression model, for the evaluation model, we use the Confusion Matrix. The Confusion Matrix contains precision, recall, f1-score, accuracy, and support. </br> From the modeling, we get 75% churn accuracy, 51% Precision churn, 84% Recall churn, and 64% F1 Score churn. In this case modeling, it is better to see someone who does not churn into churn so it is better to use recall as an indication of model performanc
 
 ## Result
+* [Gender on churn]
+
+  Based on gender, telco customer distribution seems equal between males and female. The churn rate is almost at an equal level, in other words, we can say that churn   rates are not depending on the gender of the customer, from 7043 customers there are 5147 customers who remain subscribed, or about 73.46% of telco data. and based     on the results of EDA gender does not have much effect on customer churn, because the percentage results show the same thing, which is in the range of 31% of the      total
+* [Contract on churn]
+
+  Only less than 4% of customers churn when they subscribe for 1 year and 2 years, and this explains that there is no fatal cause that makes customers churn. There is   an increase in the percentage of about 4.82% between 1-year to 2-year subscriptions for customers who do not churn. that means some loyal customers are still     satisfied with the services provided by the company. The high number of Month to Month customers who decide to churn is around 23.50%, which means that there are still   many early customers who are not interested in the services provided by the company.
+
+* [Services on churn]
+
+  From the overall data, there are still many customers who continue in telco even though they do not use the services provided. can be seen if the average is almost     more than 22% of the total data, customers do not use the services provided by the company. From the overall data, there are still many customers who still in telco   but they do not have internet services in it, about 17% of the total data.
+
+* [Partner on churn]
+
+  Although the percentage of customers who do not churn and do not have partners is still high, namely 29.52%, partners are important things that can affect customer     churn or not. It can be seen that there is a significant difference between churn customers who have partners and customers who do not churn without partners, namely
+  25.14% . From this we know, that most customers who enjoy the service are customers who do not have a partner. This is in line with the number of customers who       churn, where more are customers who do not have partners. Companies can increase promotions on days associated with couples such as Valentine, to increase customers     who want to use the company's services.
+
 * From the modeling, we get 75% churn accuracy, 51% Precision churn, 84% Recall churn, and 64% F1 Score churn. In this case modeling, it is better to see someone who does not churn into churn so it is better to use recall as an indication of model performance.
 * To see further performance of the model, a probability check was carried out with ROC-AUC, it was found that the difference in accuracy between the train data and the test data was less than 0.05, so it can be concluded that the model made is good.
 * When parameter adjustment is made with hyperparameter tuning, there is not much change in accuracy
