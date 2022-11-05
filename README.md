@@ -6,8 +6,8 @@
 * Get to know how much influence the Senior Citizen has on customer churn.
 * Get to know how much influence the Dependents have on customer churn.
 * Get to know how much influence Paperless Billing has on customer churn
-* Gain knowledge of how important partners influence customer churn
-* Gain knowledge of how important the type of InternetService to influence customer churn
+* Get to know how important partners influence customer churn
+* Get to know how important the type of InternetService to influence customer churn
 * Get an insight about how much influence the Phone Services on customer churn
 * Get an insight about how much influence the Online Security on customer churn
 * Get an insight about how much influence the Online Backup on customer churn
@@ -55,11 +55,12 @@
 **Customer Churn** refers to the loss of customers. Churn is intimately connected to a company’s performance. The more one learns about buyers’ behavior, the more money one can make. Analyzing customer churn also aids in finding and improving the shortcomings of services provided by the company. Customer churn rate must to be reduce so that the company's income increases
 
 this case has some business question using the data:
-* How gender affects the customer churn ?
-* How customer satisfaction seen from the length of their contract that affect customer churn ?
-* How important partners influences customer churn ?
-* How important the type of InternetService to influence customer churn ?
-* how many percentage is predict to be churn?
+* How gender affects customer churn?
+* How does customer satisfaction see from the length of their contract affects customer churn?
+* How important services to affect customer churn?
+* How important do partners influence customer churn?
+* How important is the type of internet service to influence customer churn ?
+* How many percentage is predict to be churn?
 
 ## Data Understanding
 ### Source Data
