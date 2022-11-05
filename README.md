@@ -174,6 +174,13 @@ From the data above, it is known that most customers do not subscribe to Streami
 ![image](https://user-images.githubusercontent.com/55911060/200089308-008a7636-c980-47b3-9080-af68405843cb.png)
 From the data above, it is known that most customers use Electronic Check for the Payment Method, the churn rate in the Payment Method is dominated by customers who do not churn, while customers who churn are dominated by customers who use Electronic check for the payment method.
 
+### How Services Affect the Customer Churn
+![image](https://user-images.githubusercontent.com/91566708/200112474-03359362-b359-498e-9052-62caa5255d26.png)
+
+From the overall data, there are still many customers who continue in telco even though they do not use the services provided. can be seen if the average is almost more than 22% of the total data, customers do not use the services provided by the company.
+
+From the overall data, there are still many customers who still in telco but they do not have internet services in it, about 17% of the total data.
+
 ## Modeling : Logistic Regression
 * Logistic Regression algorithm is an supervised machine learning algorithm for predicting the categorical dependant variable using a given set of independent variables  
 
@@ -206,10 +213,29 @@ In the logistic regression model, for the evaluation model, we use the Confusion
   Although the percentage of customers who do not churn and do not have partners is still high, namely 29.52%, partners are important things that can affect customer     churn or not. It can be seen that there is a significant difference between churn customers who have partners and customers who do not churn without partners, namely
   25.14% . From this we know, that most customers who enjoy the service are customers who do not have a partner. This is in line with the number of customers who       churn, where more are customers who do not have partners. Companies can increase promotions on days associated with couples such as Valentine, to increase customers     who want to use the company's services.
 
+* [SeniorCitizen on churn]
+
+Based on the senior citizen category, we can see that most telco customers are not senior citizen (younger citizen) in front of the percentage 71.80%, The level of customer churn of senior citizens is also low, the largest customer churn is from the non-senior citizen class with a percentage of 17%
+
+* [Dependents on churn]
+
+Telco customers mostly do not have dependents with a percentage of 60.17% compared to customers who have a dependent that is equal to 25.50%. Customers who churn based on the most dependents are customers who do not have dependents with a percentage of 18.83%, even so, customers who still stick with telco services still quite a lot with a total of 73.47%
+
+* [Paperless Billing on churn]
+
+Telco customers based on paperless billing are the most customers who using paperless billing with a presentation of 59.22%, while customers who do not use paperless billing in amount 40.78%. The customers who churn the most are customers who use paperless billing with a percentage of 19.88%.
+
+* [Internet Service on churn]
+
+Not only being the highest at 24.01%, but DSL also has a much lower percentage in influencing customer churn than Fiber Optic, which is a difference of 10%. This shows that DSL InternetService is still superior for customer use. From this we know that most customers who enjoy the service use Fiber Optic internet services, and the second is DSL. However, the number of customers who churn more is using Fiber Optic internet services. Companies can improve or maintain Fiber Optic-based services, so that customers can continue to survive or add new customers
+
 * From the modeling, we get 75% churn accuracy, 51% Precision churn, 84% Recall churn, and 64% F1 Score churn. In this case modeling, it is better to see someone who does not churn into churn so it is better to use recall as an indication of model performance.
 * To see further performance of the model, a probability check was carried out with ROC-AUC, it was found that the difference in accuracy between the train data and the test data was less than 0.05, so it can be concluded that the model made is good.
 * When parameter adjustment is made with hyperparameter tuning, there is not much change in accuracy
 
 ## Recommendation
-* Recommendation for "Churn" Customer : </br> Focus on promotion, campaign, or give advantage for return old customers such     as discount reactivation or free services. Make a point reactivation strategy, give the big advantage to old customers who already churns 
-* Recommendation for "Not Churn" Customer: </br> Focus on a strategy to raise income such as down-selling such as bundles for a few products
+* Recommendation for "Churn" Customer : 
+1. Focus on promotion, campaign, or give advantage for return old customers such as discount reactivation or free services. Make a point reactivation strategy, give the big advantage to old customers who already churns 
+* Recommendation for "Not Churn" Customer: 
+1. Focus on a strategy to raise income such as down-selling such as bundles for a few products
+2. Indeed, services have not been very influential in terms of customer churn, but internet services need to be improved because there are still many customers who do not have internet services, which could be one of the big influences on why customers have not used the service.
