@@ -126,15 +126,15 @@ from 7043 customers there are 5147 customers who remain subscribed, or about 73.
 * The high number of Month to Month customers who decide to churn is around 23.50%, which means that there are still many early customers who are not interested in the services provided by the company.
 
 ### Customer Churn Based on Senior Citizen
-![image](https://user-images.githubusercontent.com/55911060/200087774-46d16aa9-2656-47d3-828e-ecbd4d71ad31.png)
+![senc g](https://user-images.githubusercontent.com/99872829/200094529-5e17f0e8-6ab5-4ed6-98ae-c6a28fa72dbb.JPG)
 * Based on the senior citizen category, we can see that most telco customers are not senior citizen (younger citizen) in front of the percentage 71.80%, The level of customer churn of senior citizens is also low, the largest customer churn is from the non-senior citizen class with a percentage of 17%
 
 ### Customer Churn Based on Dependents
-![image](https://user-images.githubusercontent.com/55911060/200087774-46d16aa9-2656-47d3-828e-ecbd4d71ad31.png)
+![depn g](https://user-images.githubusercontent.com/99872829/200094556-7ffba589-fadb-4172-a2d8-8135ea3c286a.JPG)
 * Telco customers mostly do not have dependants with a percentage of 60.17% compared to customers who have a dependent that is equal to 25.50%. Customers who churn based on the most dependents are customers who do not have dependents with a percentage of 18.83%, even so, customers who still stick with telco services still quite a lot with a total of 73.47%
 
 ### Customer Churn Based on Paperless Billing
-![image](https://user-images.githubusercontent.com/55911060/200087774-46d16aa9-2656-47d3-828e-ecbd4d71ad31.png)
+![pb g](https://user-images.githubusercontent.com/99872829/200094549-3bd810ef-2f28-4472-a2dc-e52b2aaf55da.JPG)
 * Telco customers based on paperless billing are the most customers who using paperless billing with a presentation of 59.22%, while customers who do not use paperless billing in amount 40.78%. The customers who churn the most are customers who use paperless billing with a percentage of 19.88%
 
 ### Customer Churn Based on Partner
