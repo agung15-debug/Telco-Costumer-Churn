@@ -186,6 +186,7 @@ From the data above, it is known that most customers use Electronic Check for th
  
  ## Evaluation
 ![pres al](https://user-images.githubusercontent.com/99872829/200104563-d61ad470-2ac8-4389-9212-ad27dbc3c47d.JPG)
+
 In the logistic regression model, for the evaluation model, we use the Confusion Matrix. The Confusion Matrix contains precision, recall, f1-score, accuracy, and support. </br> From the modeling, we get 75% churn accuracy, 51% Precision churn, 84% Recall churn, and 64% F1 Score churn. In this case modeling, it is better to see someone who does not churn into churn so it is better to use recall as an indication of model performanc
 
 ## Result
