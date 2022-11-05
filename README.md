@@ -3,6 +3,9 @@
 ### Objective Statement
 * Get an insight about the influence of gender on customer churn.
 * Describe customer satisfaction seen from the length of their contract that affects customer churn.
+* Get to know how much influence the Senior Citizen has on customer churn.
+* Get to know how much influence the Dependents have on customer churn.
+* Get to know how much influence Paperless Billing has on customer churn
 * Gain knowledge of how important partners influence customer churn
 * Gain knowledge of how important the type of InternetService to influence customer churn
 * Get an insight about how much influence the Phone Services on customer churn
@@ -32,6 +35,9 @@
 ### Expected Outcome
 * Knowing the influence of gender on customer churn.
 * Knowing customer satisfaction seen from the length of their contract that affects customer churn.
+* Get to know how much influence the Senior Citizen on customer churn.
+* Get to know how much influence the Dependents on customer churn.
+* Get to know how much influence the Paperless Billing on customer churn.
 * Knowing how important partners influence customer churn.
 * Knowing how important the type of InternetService to influence customer churn
 * Get to know how much influence the Phone Services on customer churn.
@@ -118,6 +124,18 @@ from 7043 customers there are 5147 customers who remain subscribed, or about 73.
 * Only less than 4% of customers churn when they subscribe for 1 year and 2 years, and this explains that there is no fatal cause that makes customers churn.
 * There is an increase in the percentage of about 4.82% between 1-year to 2-year subscriptions for customers who do not churn. that means some loyal customers are still satisfied with the services provided by the company.
 * The high number of Month to Month customers who decide to churn is around 23.50%, which means that there are still many early customers who are not interested in the services provided by the company.
+
+### Customer Churn Based on Senior Citizen
+![image](https://user-images.githubusercontent.com/55911060/200087774-46d16aa9-2656-47d3-828e-ecbd4d71ad31.png)
+* Based on the senior citizen category, we can see that most telco customers are not senior citizen (younger citizen) in front of the percentage 71.80%, The level of customer churn of senior citizens is also low, the largest customer churn is from the non-senior citizen class with a percentage of 17%
+
+### Customer Churn Based on Dependents
+![image](https://user-images.githubusercontent.com/55911060/200087774-46d16aa9-2656-47d3-828e-ecbd4d71ad31.png)
+* Telco customers mostly do not have dependants with a percentage of 60.17% compared to customers who have a dependent that is equal to 25.50%. Customers who churn based on the most dependents are customers who do not have dependents with a percentage of 18.83%, even so, customers who still stick with telco services still quite a lot with a total of 73.47%
+
+### Customer Churn Based on Paperless Billing
+![image](https://user-images.githubusercontent.com/55911060/200087774-46d16aa9-2656-47d3-828e-ecbd4d71ad31.png)
+* Telco customers based on paperless billing are the most customers who using paperless billing with a presentation of 59.22%, while customers who do not use paperless billing in amount 40.78%. The customers who churn the most are customers who use paperless billing with a percentage of 19.88%
 
 ### Customer Churn Based on Partner
 ![image](https://user-images.githubusercontent.com/55911060/200088851-49b5615d-2b95-483a-b7e2-16c1376ee8d0.png)
