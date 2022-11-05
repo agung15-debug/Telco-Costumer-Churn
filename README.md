@@ -188,7 +188,11 @@ From the data above, it is known that most customers use Electronic Check for th
 ![image](https://user-images.githubusercontent.com/55911060/200089584-9fbcf65a-bbc8-4526-838c-3e5bc7000773.png)
 In the logistic regression model, for the evaluation model, we use the Confusion Matrix. The Confusion Matrix contains precision, recall, f1-score, accuracy, and support. </br> From the modeling, we get 75% churn accuracy, 51% Precision churn, 84% Recall churn, and 64% F1 Score churn. In this case modeling, it is better to see someone who does not churn into churn so it is better to use recall as an indication of model performanc
 
+## Result
+* From the modeling, we get 75% churn accuracy, 51% Precision churn, 84% Recall churn, and 64% F1 Score churn. In this case modeling, it is better to see someone who does not churn into churn so it is better to use recall as an indication of model performance.
+* To see further performance of the model, a probability check was carried out with ROC-AUC, it was found that the difference in accuracy between the train data and the test data was less than 0.05, so it can be concluded that the model made is good.
+* When parameter adjustment is made with hyperparameter tuning, there is not much change in accuracy
+
 ## Recommendation
 * Recommendation for "Churn" Customer : </br> Focus on promotion, campaign, or give advantage for return old customers such     as discount reactivation or free services. Make a point reactivation strategy, give the big advantage to old customers who already churns 
-
 * Recommendation for "Not Churn" Customer: </br> Focus on a strategy to raise income such as down-selling such as bundles for a few products
